@@ -1,6 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
+*.py[cod]
 *$py.class
 
 # C extensions
@@ -149,8 +150,11 @@ activemq-data/
 
 # Environments
 .env
+.env.*
+!.env.example
 .envrc
 .venv
+.venv/
 env/
 venv/
 ENV/
@@ -216,3 +220,33 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# macOS cruft
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.DocumentRevisions-V100
+Icon?
+
+# disk.py generated output (in case the tool is ever run inside the repo)
+diskreport.log
+diskreport.html
+used_inodes.json
+unused_inodes.json
+mixed_inodes.json
+duplicate_files.json
+cross_drive_duplicates.json
+.disk_cache.db
+.disk_cache.db-shm
+.disk_cache.db-wal
+cross-seed-dir/
+
+# Internal notes
+claude.md
