@@ -4,7 +4,7 @@ A comprehensive, single-file + single-run disk audit tool for large drives. Buil
 
 **Zero dependencies** beyond Python 3.9+ standard library. Optional `xxhash` for faster hashing.
 
-**AI Usage** this script was written *entirely* by AI (Claude Sonnet + Opus). I've done some minimal checking of functionality and a security pass, asking the AI to solve the security issues noted in this read-me below. This script is meant for personal use and was not designed with lots of safeguards in mind. I cannot guarantee this script won't fuck up your drive layout, delete files, or some other miserable catastrophe. (Though it really shouldn't). Use at your own risk: I've used it and it has worked fine for me, but that's it. This readme has been fully verified and by me and is accurate.
+**AI Usage** this script was written *entirely* by AI (Claude Sonnet + Opus). While I (mostly) know what I'm going, I've only done some minimal checking of functionality and a security pass. This script is meant for personal use and was not designed with lots of safeguards in mind. I cannot guarantee this script won't fuck up your drive layout, delete files, or some other miserable catastrophe. (Though it really shouldn't). Use at your own risk: I've used it and it has worked fine for me, but that's it. This readme has been fully verified and by me and is accurate.
 
 ## What It Does
 
